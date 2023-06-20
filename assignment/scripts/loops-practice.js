@@ -15,7 +15,7 @@ console.log('count from 0 to 5');
 for (let i=0; i<6; i++){
   console.log(i);
 }
-// This looks correct already??
+// You just need to change the number that i is less than from 4 to 6 so that it reaches 5. 
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
@@ -52,8 +52,6 @@ for (let star of stars){
 // 3. While loops  
 console.log('---- 3. While loop ----');
 
-
-
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
 let i = 0;
@@ -63,19 +61,13 @@ while (i < stars.length) {
   i++;
 }
 
-
-
-
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
-// console.log('count from 0 to 5');
-// let index = 0;
-// while (index < 6){
-//   console.log(index);
-//   index++;
-// }
-
-
-
+console.log('count from 0 to 5');
+let newIndex = 0;
+while (newIndex < 6){
+  console.log(newIndex);
+  newIndex++;
+}
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
